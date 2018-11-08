@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/hzlshen/webpack3.0-learn/issues"
   },
-  "homepage": "https://github.com/hzlshen/webpack3.0-learn#readme"
+  "homepage": "https://github.com/hzlshen/webpack3.0-learn#readme",
+  "devDependencies": {
+    "webpack": "^4.25.1"
+  }
 }
