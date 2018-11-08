@@ -19,5 +19,8 @@
   "homepage": "https://github.com/hzlshen/webpack3.0-learn#readme",
   "devDependencies": {
     "webpack": "^4.25.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
   }
 }
