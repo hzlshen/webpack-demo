@@ -11,7 +11,6 @@ function component() {
   var newIcon = new Image();
   newIcon.src = Icon;
   element.appendChild(newIcon);
-  console.log(element)
   return element;
 }
 
