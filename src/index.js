@@ -12,6 +12,7 @@ function component() {
   newIcon.src = Icon;
   element.appendChild(newIcon);
   return element;
+  const we = '2222';
 }
 
 document.body.appendChild(component());
