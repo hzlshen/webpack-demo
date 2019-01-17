@@ -6,7 +6,7 @@ module.exports = {
     print: './src/print.js'
   },
   output : {
-    filename: '[name]bundle.js',
+    filename: '[name].bundle.js',
     path : path.resolve(__dirname,'dist')
   }
 };
