@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/hzlshen/webpack3.0-learn#readme",
   "devDependencies": {
+    "clean-webpack-plugin": "^1.0.0",
     "css-loader": "^1.0.1",
     "file-loader": "^2.0.0",
     "html-webpack-plugin": "^3.2.0",
