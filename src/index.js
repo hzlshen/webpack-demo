@@ -3,15 +3,17 @@ import printMe from './print.js'
 
 function component() {
   const element = document.createElement('div');
+  let btn = document.createElement("button");
 
   element.innerHTML = _.join(['Hello,','webpack'],' ');
   element.classList.add('hello');
 
-  var newIcon = new Image();
-  newIcon.src = Icon;
-  element.appendChild(newIcon);
+  btn.innerHTML = "点击我输出";
+  btn.onclick = printMe;
+
+  element.appendChild(btn);
+
   return element;
-  const we = '2222';
 }
 
 document.body.appendChild(component());
