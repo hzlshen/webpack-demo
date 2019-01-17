@@ -8,7 +8,7 @@ function component() {
   element.innerHTML = _.join(['Hello,','webpack'],' ');
   element.classList.add('hello');
 
-  btn.innerHTML = "点击我输出";
+  btn.innerHTML = "console.log";
   btn.onclick = printMe;
 
   element.appendChild(btn);
