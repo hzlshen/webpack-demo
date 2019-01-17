@@ -14,6 +14,9 @@
     "type": "git",
     "url": "git+https://github.com/hzlshen/webpack3.0-learn.git"
   },
+  "sideEffects": [
+    "./src/some-side-effectful-file.js"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
