@@ -17,7 +17,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: "output management"
     }),
-    new webpack.NamedChunksPlugin(),
+    new webpack.NamedModulesPlugin(),
     new webpack.HotModuleReplacementPlugin()
   ],
   output : {
