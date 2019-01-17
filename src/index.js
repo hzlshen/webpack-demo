@@ -1,11 +1,21 @@
 import printMe from './print.js'
 import './styles.css';
+import { cube } from './math.js'
 
 function component() {
-  const element = document.createElement('div');
-  let btn = document.createElement("button");
+  // const element = document.createElement('div');
+  let element = document.createElement('pre');
 
-  element.innerHTML = _.join(['Hello,','webpack'],' ');
+  let btn = document.createElement("button");
+  
+  // lodash 是由当前 script 脚本 import 导入进来的
+  // element.innerHTML = _.join(['Hello,','webpack'],' ');
+
+  element.innerHTML = [
+    'Hello webpack',
+    '5 cube is equal to '+ cube(5)
+  ].join('\n\n');
+  
   element.classList.add('hello');
 
   btn.innerHTML = "console.log";
