@@ -1,3 +1,2 @@
-# webpack4.0-learn
-webpack4.0-learn
-this is a demo
+# webpack demo
+根据webpack中文网，学习webpack
